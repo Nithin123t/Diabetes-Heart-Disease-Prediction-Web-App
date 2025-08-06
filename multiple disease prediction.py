@@ -9,8 +9,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu 
 
 # Load models
-diabetes_model = pickle.load(open('C:/Users/nithi/nodejs/steamlit projects/multiple disease detection/trained_model (1).sav', 'rb'))
-heart_disease_model = pickle.load(open('C:/Users/nithi/nodejs/steamlit projects/multiple disease detection/heart_disease_data.sav', 'rb'))
+diabetes_model = pickle.load(open('trained_model (1).sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_data.sav', 'rb'))
 
 # Sidebar menu
 with st.sidebar:
